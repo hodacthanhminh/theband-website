@@ -1,0 +1,92 @@
+/* PC */
+@media (max-width: 1024px)  {
+	
+}
+
+/* Tablet */
+@media (max-width: 1023px) and (min-width: 740px) {
+
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    
+#nav > li {
+    display: block;
+}
+.s-full-width,
+.s-col-full { 
+    width: 100%;
+}
+
+
+
+.s-mt-16 {
+    margin-top: 16px ! important;
+}
+
+.s-mt-8 {
+    margin-top: 8px ! important;
+}
+
+#header { 
+    overflow: hidden;
+}
+
+#header .search-btn {
+    display: none;
+
+}
+
+#header .mobile-menu-btn {
+    display: block;
+}
+
+#nav { 
+    display: block;
+}
+
+#nav .subnav {
+    position:initial;
+}
+
+#nav .subnav li {
+    background-color:#333;
+}
+
+#nav .subnav li a {
+    color: #fff;
+    padding: 5px 36px;
+}
+
+#nav > li:first-child {
+    display:inline-block;
+}
+
+#content .member-item {
+    float: left;
+    width: 100%;
+    text-align: center; 
+}
+
+#content .member-img {
+    width: 60%;
+}
+
+#content .places-list {
+    width: 100%;
+}
+
+.place-body {
+    font-size: 20px;
+}
+
+.btn {
+    font-size: 20px;
+}
+
+.contact form {
+    margin-top: 32px;
+}
+
+}
